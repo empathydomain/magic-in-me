@@ -1240,11 +1240,12 @@ Despite being initially excited--she&#39;s never gone to a club before--Veth now
 ]
 &lt;br&gt;
 Select chapter:
-(dropdown: 2bind $chapter, &quot;Intro&quot;, &quot;1&quot;, &quot;2&quot;)&lt;br&gt;
+(dropdown: 2bind $chapter, &quot;Intro&quot;, &quot;1&quot;, &quot;2&quot;, &quot;3&quot;)&lt;br&gt;
 (link: &quot;Go&quot;)[
 	(if: $chapter is &quot;Intro&quot;)[(go-to: &quot;magic in me&quot;)]
 	(else-if: $chapter is &quot;1&quot;)[(go-to: &quot;veth email&quot;)]
     (else-if: $chapter is &quot;2&quot;)[(go-to: &quot;on fire&quot;)]
+    (else-if: $chapter is &quot;3&quot;)[(go-to: &quot;ktv&quot;)]
 ]
 
 
